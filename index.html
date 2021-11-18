@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>
+    .attribution { font-size: 11px; text-align: center;margin-top:50px; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div id="lightboard">
+    <div>
+      <div class="lc svg"></div>
+      <div id="navigate">
+        <div><div class="n1 svg" id="n11"></div></div>
+        <div><div class="n2 svg" id="n12"></div></div>
+      </div>
+        <img  id="img1" style="width:500px ; height:500px;" src="images/image-product-1.jpg" alt="image">
+      <div class="thumb">
+        <img class="timgs" src="images/image-product-1-thumbnail.jpg" alt="thumb-nail1" >
+        <img class="timgs" src="images/image-product-2-thumbnail.jpg" alt="thumb-nail2" >
+        <img class="timgs" src="images/image-product-3-thumbnail.jpg" alt="thumb-nail3" >
+        <img class="timgs" src="images/image-product-4-thumbnail.jpg" alt="thumb-nail4" >
+      </div>
+    </div>
+  </div>
+  <header>
+    <div id="logo">
+      <img id="menu" src="images/icon-menu.svg" alt="menu btn">
+      <img id="li" src="images/logo.svg" alt="Logo">
+      <div id="nav">
+        <div><a href="#">Collections</a><span></span></div>
+        <div><a href="#">Men</a><span></span></div>
+        <div><a href="#">Women</a><span></span></div>
+        <div><a href="#">About</a><span></span></div>
+        <div><a href="#">Contact</a><span></span></div>
+      </div>
+    </div>
+    <div id="profile">
+      <div id="discart1">
+        <div class="displaycart">
+          <p class="head"><b>Cart</b></p>
+          <div class="empty">
+            <p>Your cart is empty.</p>
+          </div>
+        </div>
+      </div>
+      <img id="cart" src="images/icon-cart.svg" alt="cart">
+      <span id="notification">0</span>
+      <img id="avatar" src="images/image-avatar.png" alt="profile">
+    </div>
+    <span id="underline"></span>
+  </header>
+  <aside>
+    <img id="close" src="images/icon-close.svg" alt="close">
+    <br>
+    <a href="Collections">Collections</a>
+    <a href="Men">Men</a>
+    <a href="Women">Women</a>
+    <a href="About">About</a>
+    <a href="Contact">Contact</a>
+  </aside>
+  <main>
+    <div id="images">
+      <img id="img2" src="images/image-product-1.jpg" alt="image">
+      <div id="discart2">
+        <div class="displaycart">
+          <p class="head"><b>Cart</b></p>
+          <div class="empty">
+            <p>Your cart is empty.</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="img">
+        <div class="n1" id="n21"></div>
+        <div class="n2" id="n22"></div>
+      </div>
+    </div>
+    <div id="thumbs">
+      <img class="Mimg" src="images/image-product-1.jpg" alt="Product image">
+      <div class="thumb">
+        <img src="images/image-product-1-thumbnail.jpg" alt="thumb-nail1">
+        <img src="images/image-product-2-thumbnail.jpg" alt="thumb-nail2">
+        <img src="images/image-product-3-thumbnail.jpg" alt="thumb-nail3">
+        <img src="images/image-product-4-thumbnail.jpg" alt="thumb-nail4">
+      </div>
+    </div>
+    <div id="mater">
+      <div id="about">
+        <p><strong>SNEAKER COMPANY</strong></p>
+        <p><b>Fall Limited Edition Sneakers</b></p>
+        <p>These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole,they'll
+          withstand everything the weather can offer.</p>
+      </div>
+      <div id="price">
+        <div id="cost">
+          <p>$125.00</p>
+          <p>$250.00</p>
+        </div>
+        <div id="flex">
+          <div id="quantity">
+            <img id="minus" src="images/icon-minus.svg" alt="remove item">
+            <p id="selected"><b>0</b></p>
+            <img id="plus" src="images/icon-plus.svg" alt="add item">
+          </div>
+          <button id="atc"> Add to cart</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Samir Abdul</a>.
+  </div>
+  <br><br>
+  <script src="app.js"></script>
+</body>
+</html>
